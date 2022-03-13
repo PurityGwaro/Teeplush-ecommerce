@@ -3,3 +3,14 @@
     margin: 0 auto;
     width: 100%;
 }
+.products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.product > img{
+    height: 12rem;
+    width: 12rem;
+}
