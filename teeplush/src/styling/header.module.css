@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+}
+.logobody{
+    width: 15rem;
+    margin-left: 1rem;
+}
+.logo{
+    margin-bottom: 0.3rem;
+    color: brown;
+}
+.logodes{
+    font-size: 0.8rem;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 0.4rem;
+}
+ul > a{
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+ul > a:hover{
+    color: gray;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    background-color: black;
+    width: 4rem;
+    text-align: center;
+    margin: 0 2rem;
+}
+
+.addons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchicon{
+    margin-right: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.searchinput{
+    border: none;
+}
+.searchinput::placeholder{
+    color: black;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.searchwords{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+.searchline{
+    height: 2.9px;
+    background-color: black;
+    font-weight: 600;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+.usericon{
+    font-size: 1rem; 
+}
+.loginwords{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 3.5rem;
+    margin-left: 0.2rem;
+}
+.shop{
+    text-decoration: none;
+}
+.basket{
+    font-size: 1.5rem;
+}

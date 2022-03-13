@@ -1,0 +1,12 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.about{
+    background-color: #f7f6f6;
+    text-align: center;
+    padding: 6rem;
+    font-size: 2rem;
+    width: 100%;
+}
